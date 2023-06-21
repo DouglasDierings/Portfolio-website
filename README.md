@@ -2,8 +2,8 @@
  A website to show my developed projects
 
  To do:
- -[] HTML
- -[] CSS
+ -[ ] HTML
+ -[ ] CSS
  -[] JavaScript
  -[] Infos
  -[] Links to social medias

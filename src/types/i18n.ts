@@ -15,6 +15,8 @@ export type Translation = {
     contact: string;
     menu: string;
     close: string;
+    mainLabel: string;
+    languageLabel: string;
   };
   hero: {
     eyebrow: string;
@@ -48,6 +50,13 @@ export type Translation = {
   contact: {
     eyebrow: string;
     title: string;
-    button: string;
+    description: string;
+    linksLabel: string;
+    emailLabel: string;
+    emailDescription: string;
+    linkedInLabel: string;
+    linkedInDescription: string;
+    githubLabel: string;
+    githubDescription: string;
   };
 };

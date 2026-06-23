@@ -2,12 +2,14 @@ import type { Locale } from "@/types/i18n";
 
 type LanguageSelectorProps = {
   currentLocale: Locale;
+  label: string;
   labels: Record<Locale, string>;
   onLocaleChange: (locale: Locale) => void;
 };
 
 export function LanguageSelector({
   currentLocale,
+  label,
   labels,
   onLocaleChange,
 }: LanguageSelectorProps) {
@@ -15,9 +17,9 @@ export function LanguageSelector({
 
   return (
     <label className="language-selector">
-      <span className="sr-only">Language</span>
+      <span className="sr-only">{label}</span>
       <select
-        aria-label="Language"
+        aria-label={label}
         value={currentLocale}
         onChange={(event) => onLocaleChange(event.target.value as Locale)}
       >

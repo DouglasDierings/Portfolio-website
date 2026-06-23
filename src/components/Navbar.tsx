@@ -34,7 +34,11 @@ export function Navbar({
           <span>DV</span>
         </a>
 
-        <nav className={`nav-links ${isOpen ? "is-open" : ""}`} aria-label="Main">
+        <nav
+          className={`nav-links ${isOpen ? "is-open" : ""}`}
+          aria-label={nav.mainLabel}
+          id="site-navigation"
+        >
           {navLinks.map((link) => (
             <a key={link.key} href={link.href} onClick={() => setIsOpen(false)}>
               {nav[link.key]}
@@ -45,11 +49,16 @@ export function Navbar({
         <div className="nav-actions">
           <LanguageSelector
             currentLocale={currentLocale}
+            label={nav.languageLabel}
             labels={languageLabels}
-            onLocaleChange={onLocaleChange}
+            onLocaleChange={(locale) => {
+              onLocaleChange(locale);
+              setIsOpen(false);
+            }}
           />
 
           <button
+            aria-controls="site-navigation"
             aria-expanded={isOpen}
             aria-label={menuLabel}
             className="menu-toggle"

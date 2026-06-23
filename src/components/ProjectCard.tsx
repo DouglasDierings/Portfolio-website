@@ -37,7 +37,7 @@ export function ProjectCard({
         target="_blank"
       >
         {linkLabel}
-        <span aria-hidden="true">&nearr;</span>
+        <span aria-hidden="true">{"\u2197"}</span>
       </a>
     </article>
   );

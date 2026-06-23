@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Navbar } from "@/components/Navbar";
 import { ProjectCard } from "@/components/ProjectCard";
 import { projects } from "@/data/projects";
@@ -14,7 +14,7 @@ const languageLabels = Object.fromEntries(
   ]),
 ) as Record<Locale, string>;
 
-const heroLinks = {
+const profileLinks = {
   github: "https://github.com/DouglasDierings",
   linkedIn: "https://www.linkedin.com/",
   email: "mailto:example@email.com",
@@ -23,6 +23,10 @@ const heroLinks = {
 export default function Home() {
   const [locale, setLocale] = useState<Locale>(defaultLocale);
   const t = translations[locale];
+
+  useEffect(() => {
+    document.documentElement.lang = locale;
+  }, [locale]);
 
   return (
     <main className="site-shell">
@@ -49,13 +53,13 @@ export default function Home() {
               </a>
             </div>
             <div className="social-row" aria-label={t.hero.socialLinksLabel}>
-              <a href={heroLinks.github} rel="noreferrer" target="_blank">
+              <a href={profileLinks.github} rel="noreferrer" target="_blank">
                 {t.hero.githubLabel}
               </a>
-              <a href={heroLinks.linkedIn} rel="noreferrer" target="_blank">
+              <a href={profileLinks.linkedIn} rel="noreferrer" target="_blank">
                 {t.hero.linkedInLabel}
               </a>
-              <a href={heroLinks.email}>{t.hero.emailLabel}</a>
+              <a href={profileLinks.email}>{t.hero.emailLabel}</a>
             </div>
           </div>
 
@@ -122,14 +126,50 @@ export default function Home() {
       </section>
 
       <section className="section" id="contact">
-        <div className="section-inner contact-band">
-          <div>
+        <div className="section-inner">
+          <div className="contact-heading">
             <p className="eyebrow">{t.contact.eyebrow}</p>
             <h2>{t.contact.title}</h2>
+            <p>{t.contact.description}</p>
           </div>
-          <a className="button button-primary" href="mailto:example@email.com">
-            {t.contact.button}
-          </a>
+          <div className="contact-links" aria-label={t.contact.linksLabel}>
+            <a
+              className="contact-link contact-link-primary"
+              href={profileLinks.email}
+            >
+              <span className="contact-link-type">{t.contact.emailLabel}</span>
+              <strong>{t.contact.emailDescription}</strong>
+              <span className="contact-link-arrow" aria-hidden="true">
+                &rarr;
+              </span>
+            </a>
+            <a
+              className="contact-link"
+              href={profileLinks.linkedIn}
+              rel="noreferrer"
+              target="_blank"
+            >
+              <span className="contact-link-type">
+                {t.contact.linkedInLabel}
+              </span>
+              <strong>{t.contact.linkedInDescription}</strong>
+              <span className="contact-link-arrow" aria-hidden="true">
+                {"\u2197"}
+              </span>
+            </a>
+            <a
+              className="contact-link"
+              href={profileLinks.github}
+              rel="noreferrer"
+              target="_blank"
+            >
+              <span className="contact-link-type">{t.contact.githubLabel}</span>
+              <strong>{t.contact.githubDescription}</strong>
+              <span className="contact-link-arrow" aria-hidden="true">
+                {"\u2197"}
+              </span>
+            </a>
+          </div>
         </div>
       </section>
     </main>

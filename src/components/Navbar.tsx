@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { LanguageSelector } from "@/components/LanguageSelector";
 import type { Locale, Translation } from "@/types/i18n";
 
@@ -25,15 +25,48 @@ export function Navbar({
   onLocaleChange,
 }: NavbarProps) {
   const [isOpen, setIsOpen] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+  const lastScrollYRef = useRef(0);
   const menuLabel = isOpen ? nav.close : nav.menu;
 
-  return (
-    <header className="site-header">
-      <div className="nav-inner">
-        <a className="brand-mark" href="#home" onClick={() => setIsOpen(false)}>
-          <span>DV</span>
-        </a>
+  useEffect(() => {
+    lastScrollYRef.current = window.scrollY;
 
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      const nearTop = currentScrollY < 24;
+      const scrollDelta = currentScrollY - lastScrollYRef.current;
+
+      if (nearTop) {
+        setIsVisible(true);
+        lastScrollYRef.current = currentScrollY;
+        return;
+      }
+
+      if (Math.abs(scrollDelta) < 6) {
+        return;
+      }
+
+      setIsVisible(scrollDelta < 0);
+      lastScrollYRef.current = currentScrollY;
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (isOpen) {
+      setIsVisible(true);
+    }
+  }, [isOpen]);
+
+  return (
+    <header className={`site-header ${isVisible ? "" : "is-hidden"}`}>
+      <div className="nav-inner">
         <nav
           className={`nav-links ${isOpen ? "is-open" : ""}`}
           aria-label={nav.mainLabel}

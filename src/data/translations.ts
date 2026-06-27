@@ -29,7 +29,6 @@ export const translations: Record<Locale, Translation> = {
       socialLinksLabel: "Social profile links",
       actionsLabel: "Portfolio actions",
       profileLabel: "Profile image placeholder",
-      profileStatus: "Available for software development opportunities",
     },
     about: {
       eyebrow: "About me",
@@ -111,7 +110,6 @@ export const translations: Record<Locale, Translation> = {
       socialLinksLabel: "Naisc phróifíle shóisialta",
       actionsLabel: "Gníomhartha punainne",
       profileLabel: "Ionad sealadach d'íomhá próifíle",
-      profileStatus: "Ar fáil do dheiseanna forbartha bogearraí",
     },
     about: {
       eyebrow: "Fúmsa",
@@ -193,7 +191,6 @@ export const translations: Record<Locale, Translation> = {
       socialLinksLabel: "Links de perfis sociais",
       actionsLabel: "Ações do portfólio",
       profileLabel: "Espaço reservado para imagem de perfil",
-      profileStatus: "Disponível para oportunidades em desenvolvimento de software",
     },
     about: {
       eyebrow: "Sobre mim",
@@ -275,7 +272,6 @@ export const translations: Record<Locale, Translation> = {
       socialLinksLabel: "Enlaces de perfiles sociales",
       actionsLabel: "Acciones del portafolio",
       profileLabel: "Marcador de posición para imagen de perfil",
-      profileStatus: "Disponible para oportunidades de desarrollo de software",
     },
     about: {
       eyebrow: "Sobre mí",
@@ -357,7 +353,6 @@ export const translations: Record<Locale, Translation> = {
       socialLinksLabel: "Links zu sozialen Profilen",
       actionsLabel: "Portfolio-Aktionen",
       profileLabel: "Platzhalter für Profilbild",
-      profileStatus: "Offen für Möglichkeiten in der Softwareentwicklung",
     },
     about: {
       eyebrow: "Über mich",

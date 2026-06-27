@@ -31,7 +31,6 @@ export type Translation = {
     socialLinksLabel: string;
     actionsLabel: string;
     profileLabel: string;
-    profileStatus: string;
   };
   about: {
     eyebrow: string;

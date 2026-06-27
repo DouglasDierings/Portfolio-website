@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Navbar } from "@/components/Navbar";
 import { ProjectCard } from "@/components/ProjectCard";
@@ -16,8 +17,8 @@ const languageLabels = Object.fromEntries(
 
 const profileLinks = {
   github: "https://github.com/DouglasDierings",
-  linkedIn: "https://www.linkedin.com/",
-  email: "mailto:example@email.com",
+  linkedIn: "https://www.linkedin.com/in/douglasdierings/",
+  email: "mailto:douglasbindi@hotmail.com",
 };
 
 export default function Home() {
@@ -66,11 +67,13 @@ export default function Home() {
           <div className="profile-preview" aria-label={t.hero.profileLabel}>
             <div className="profile-card">
               <div className="profile-ring">
-                <span>DV</span>
-              </div>
-              <div className="profile-status">
-                <span aria-hidden="true" />
-                <p>{t.hero.profileStatus}</p>
+                <Image
+                  alt={t.hero.name}
+                  className="profile-image"
+                  height={620}
+                  src="/images/profile_picture.jpg"
+                  width={620}
+                />
               </div>
             </div>
           </div>

@@ -2,21 +2,21 @@ import type { Project } from "@/types/project";
 
 export const projects: Project[] = [
   {
-    id: "task-manager",
+    id: "capstone-project",
     year: "2026",
-    technologies: ["Java", "Spring Boot", "PostgreSQL"],
-    href: "https://github.com/DouglasDierings",
+    technologies: ["Python", "XGBoost", "SARIMA", "Pandas"],
+    href: "https://github.com/DouglasDierings/Capstone_Project",
   },
   {
-    id: "portfolio",
-    year: "2026",
-    technologies: ["Next.js", "React", "TypeScript"],
-    href: "https://github.com/DouglasDierings",
+    id: "learn-flow",
+    year: "2024",
+    technologies: ["Java", "Android SDK", "Firebase", "Gradle"],
+    href: "https://github.com/DouglasDierings/LearnFlowAndroidApp",
   },
   {
-    id: "api-service",
-    year: "2025",
-    technologies: ["Java", "REST API", "Docker"],
-    href: "https://github.com/DouglasDierings",
+    id: "find-out-your-tax",
+    year: "2023",
+    technologies: ["Java", "MySQL", "JDBC", "NetBeans"],
+    href: "https://github.com/DouglasDierings/FindOutYoutTax",
   },
 ];

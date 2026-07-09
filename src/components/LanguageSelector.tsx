@@ -1,3 +1,5 @@
+"use client";
+
 import type { Locale } from "@/types/i18n";
 
 type LanguageSelectorProps = {

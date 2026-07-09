@@ -20,7 +20,7 @@ export const translations: Record<Locale, Translation> = {
       name: "Douglas Vinicius Dierings",
       role: "Java Programmer / Software Developer",
       intro:
-        "Computing graduate and software developer focused on Java, web development and building clean, practical digital solutions.",
+        "Bachelor of Science (Honours) in Computing and IT graduate with a 1.1 grade, and software developer focused on Java, web development and building clean, practical digital solutions.",
       primaryButton: "View projects",
       secondaryButton: "Get in touch",
       githubLabel: "GitHub",
@@ -51,22 +51,22 @@ export const translations: Record<Locale, Translation> = {
       linkLabel: "View project",
       items: [
         {
-          id: "task-manager",
-          title: "Task Management API",
+          id: "capstone-project",
+          title: "Traffic Volume Forecasting Capstone",
           description:
-            "A placeholder REST API for organising tasks, users and project workflows with a clean Java backend.",
+            "A final-year forecasting study comparing SARIMA and XGBoost on 15-minute SCATS traffic data, with feature engineering, model evaluation and a Tkinter demo for future traffic predictions.",
         },
         {
-          id: "portfolio",
-          title: "Developer Portfolio",
+          id: "learn-flow",
+          title: "Learn Flow",
           description:
-            "A responsive multilingual portfolio focused on accessible navigation, reusable components and clear presentation.",
+            "An Android app for managing employee training across multiple work sites, with Firebase authentication, Realtime Database storage and mobile workflows for onboarding and monthly training checks.",
         },
         {
-          id: "api-service",
-          title: "Integration Service",
+          id: "find-out-your-tax",
+          title: "Irish Tax Calculator",
           description:
-            "A placeholder service for connecting external APIs, processing data and delivering reliable responses.",
+            "A Java tax calculator prototype for estimating Irish PAYE, USC and PRSI liabilities, with login, sign-up, profile flows and MySQL-backed user tax records.",
         },
       ],
     },
@@ -132,22 +132,22 @@ export const translations: Record<Locale, Translation> = {
       linkLabel: "Féach an tionscadal",
       items: [
         {
-          id: "task-manager",
-          title: "API Bainistíochta Tascanna",
+          id: "capstone-project",
+          title: "Tionscadal Capstone um Thuar Tráchta",
           description:
-            "API REST sealadach chun tascanna, úsáideoirí agus sreafaí oibre tionscadail a eagrú le hinneall glan Java.",
+            "Staidéar tuartha bliana deiridh a chuireann SARIMA agus XGBoost i gcomparáid ar shonraí tráchta SCATS 15 nóiméad, le hinnealtóireacht gnéithe, meastóireacht samhlacha agus taispeántas Tkinter do thuar tráchta amach anseo.",
         },
         {
-          id: "portfolio",
-          title: "Punann Forbróra",
+          id: "learn-flow",
+          title: "Learn Flow",
           description:
-            "Punann ilteangach fhreagrúil le nascleanúint inrochtana, comhpháirteanna in-athúsáidte agus cur i láthair soiléir.",
+            "Aip Android chun taifid oiliúna fostaithe a bhainistiú thar iliomad suíomhanna oibre, le fíordheimhniú Firebase, stóráil Realtime Database agus sreafaí soghluaiste d'ionduchtú agus seiceálacha oiliúna míosúla.",
         },
         {
-          id: "api-service",
-          title: "Seirbhís Chomhtháthaithe",
+          id: "find-out-your-tax",
+          title: "Áireamhán Cánach na hÉireann",
           description:
-            "Seirbhís shealadach chun APIanna seachtracha a nascadh, sonraí a phróiseáil agus freagraí iontaofa a sheachadadh.",
+            "Fréamhshamhail áireamháin cánach Java chun dliteanais PAYE, USC agus PRSI in Éirinn a mheas, le logáil isteach, clárú, sreafaí próifíle agus taifid chánach úsáideora i MySQL.",
         },
       ],
     },
@@ -213,22 +213,22 @@ export const translations: Record<Locale, Translation> = {
       linkLabel: "Ver projeto",
       items: [
         {
-          id: "task-manager",
-          title: "API de Gerenciamento de Tarefas",
+          id: "capstone-project",
+          title: "Capstone de Previsão de Volume de Tráfego",
           description:
-            "Uma API REST provisória para organizar tarefas, usuários e fluxos de projeto com um backend Java limpo.",
+            "Um estudo final de previsão que compara SARIMA e XGBoost com dados de tráfego SCATS em intervalos de 15 minutos, incluindo engenharia de atributos, avaliação de modelos e uma demo em Tkinter para previsões futuras.",
         },
         {
-          id: "portfolio",
-          title: "Portfólio de Desenvolvedor",
+          id: "learn-flow",
+          title: "Learn Flow",
           description:
-            "Um portfólio multilíngue e responsivo focado em navegação acessível, componentes reutilizáveis e apresentação clara.",
+            "Um app Android para gerenciar treinamentos de funcionários em vários locais de trabalho, com autenticação Firebase, armazenamento no Realtime Database e fluxos móveis para integração e controles mensais.",
         },
         {
-          id: "api-service",
-          title: "Serviço de Integração",
+          id: "find-out-your-tax",
+          title: "Calculadora de Impostos da Irlanda",
           description:
-            "Um serviço provisório para conectar APIs externas, processar dados e entregar respostas confiáveis.",
+            "Um protótipo em Java para calcular impostos na Irlanda, estimando PAYE, USC e PRSI, com login, cadastro, fluxos de perfil e registros fiscais de usuários salvos em MySQL.",
         },
       ],
     },
@@ -294,22 +294,22 @@ export const translations: Record<Locale, Translation> = {
       linkLabel: "Ver proyecto",
       items: [
         {
-          id: "task-manager",
-          title: "API de Gestión de Tareas",
+          id: "capstone-project",
+          title: "Capstone de Predicción de Volumen de Tráfico",
           description:
-            "Una API REST provisional para organizar tareas, usuarios y flujos de proyecto con un backend Java limpio.",
+            "Un estudio final de predicción que compara SARIMA y XGBoost con datos de tráfico SCATS en intervalos de 15 minutos, incluyendo ingeniería de características, evaluación de modelos y una demo en Tkinter para predicciones futuras.",
         },
         {
-          id: "portfolio",
-          title: "Portafolio de Desarrollador",
+          id: "learn-flow",
+          title: "Learn Flow",
           description:
-            "Un portafolio multilingüe y responsivo centrado en navegación accesible, componentes reutilizables y presentación clara.",
+            "Una app Android para gestionar la formación de empleados en varios sitios de trabajo, con autenticación Firebase, almacenamiento en Realtime Database y flujos móviles para incorporación y controles mensuales.",
         },
         {
-          id: "api-service",
-          title: "Servicio de Integración",
+          id: "find-out-your-tax",
+          title: "Calculadora de Impuestos de Irlanda",
           description:
-            "Un servicio provisional para conectar APIs externas, procesar datos y entregar respuestas fiables.",
+            "Un prototipo en Java para calcular impuestos en Irlanda, estimando PAYE, USC y PRSI, con inicio de sesión, registro, flujos de perfil y registros fiscales de usuarios en MySQL.",
         },
       ],
     },
@@ -375,22 +375,22 @@ export const translations: Record<Locale, Translation> = {
       linkLabel: "Projekt ansehen",
       items: [
         {
-          id: "task-manager",
-          title: "Aufgabenverwaltungs-API",
+          id: "capstone-project",
+          title: "Capstone zur Verkehrsvolumenprognose",
           description:
-            "Eine vorläufige REST-API zur Organisation von Aufgaben, Benutzern und Projektabläufen mit einem klaren Java-Backend.",
+            "Eine Abschlussstudie zur Prognose, die SARIMA und XGBoost mit 15-minütigen SCATS-Verkehrsdaten vergleicht, einschließlich Feature Engineering, Modellbewertung und einer Tkinter-Demo für zukünftige Verkehrsprognosen.",
         },
         {
-          id: "portfolio",
-          title: "Entwicklerportfolio",
+          id: "learn-flow",
+          title: "Learn Flow",
           description:
-            "Ein responsives, mehrsprachiges Portfolio mit zugänglicher Navigation, wiederverwendbaren Komponenten und klarer Darstellung.",
+            "Eine Android-App zur Verwaltung von Mitarbeiterschulungen an mehreren Arbeitsstandorten, mit Firebase-Authentifizierung, Realtime-Database-Speicherung und mobilen Abläufen für Onboarding und monatliche Schulungskontrollen.",
         },
         {
-          id: "api-service",
-          title: "Integrationsdienst",
+          id: "find-out-your-tax",
+          title: "Irischer Steuerrechner",
           description:
-            "Ein vorläufiger Dienst zum Verbinden externer APIs, Verarbeiten von Daten und Bereitstellen zuverlässiger Antworten.",
+            "Ein Java-Prototyp zur Berechnung irischer Steuern, der PAYE, USC und PRSI schätzt, mit Login, Registrierung, Profilabläufen und in MySQL gespeicherten Steuerdaten.",
         },
       ],
     },

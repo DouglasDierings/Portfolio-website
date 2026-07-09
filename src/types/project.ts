@@ -1,4 +1,7 @@
-export type ProjectId = "task-manager" | "portfolio" | "api-service";
+export type ProjectId =
+  | "capstone-project"
+  | "learn-flow"
+  | "find-out-your-tax";
 
 export type Project = {
   id: ProjectId;

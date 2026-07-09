@@ -1,7 +1,9 @@
+import type { ProjectId } from "@/types/project";
+
 export type Locale = "en" | "ga" | "pt-BR" | "es" | "de";
 
 export type ProjectTranslation = {
-  id: "task-manager" | "portfolio" | "api-service";
+  id: ProjectId;
   title: string;
   description: string;
 };

@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Navbar } from "@/components/Navbar";
 import { ProjectCard } from "@/components/ProjectCard";
@@ -20,8 +19,8 @@ const profileLinks = {
   linkedIn: "https://www.linkedin.com/in/douglasdierings/",
   email: "mailto:douglasbindi@hotmail.com",
 };
-
-const basePath = "/Portfolio-website";
+const assetBasePath =
+  process.env.NODE_ENV === "production" ? "/Portfolio-website" : "";
 
 export default function Home() {
   const [locale, setLocale] = useState<Locale>(defaultLocale);
@@ -43,7 +42,7 @@ export default function Home() {
       <section className="section section-hero" id="home">
         <div className="section-inner hero-layout">
           <div className="hero-copy">
-            <p className="eyebrow">{t.hero.eyebrow}</p>
+            {t.hero.eyebrow ? <p className="eyebrow">{t.hero.eyebrow}</p> : null}
             <h1>{t.hero.name}</h1>
             <p className="role-line">{t.hero.role}</p>
             <p className="lead">{t.hero.intro}</p>
@@ -69,11 +68,12 @@ export default function Home() {
           <div className="profile-preview" aria-label={t.hero.profileLabel}>
             <div className="profile-card">
               <div className="profile-ring">
-                <Image
+                <img
                   alt={t.hero.name}
                   className="profile-image"
                   height={620}
-                  src={`${basePath}/images/profile_picture.jpg`}
+                  loading="eager"
+                  src={`${assetBasePath}/images/profile_picture.jpg`}
                   width={620}
                 />
               </div>
@@ -121,7 +121,6 @@ export default function Home() {
                   key={project.id}
                   linkLabel={t.projects.linkLabel}
                   project={project}
-                  tagsLabel={t.projects.tagsLabel}
                   title={content.title}
                 />
               );

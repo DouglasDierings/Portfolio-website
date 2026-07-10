@@ -4,9 +4,10 @@ import { fileURLToPath } from "node:url";
 
 const projectRoot = path.dirname(fileURLToPath(import.meta.url));
 const basePath = "/Portfolio-website";
+const isProduction = process.env.NODE_ENV === "production";
 
 const nextConfig: NextConfig = {
-  basePath,
+  basePath: isProduction ? basePath : undefined,
   images: {
     unoptimized: true,
   },

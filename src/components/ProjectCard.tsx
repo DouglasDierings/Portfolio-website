@@ -5,7 +5,6 @@ type ProjectCardProps = {
   title: string;
   description: string;
   linkLabel: string;
-  tagsLabel: string;
 };
 
 export function ProjectCard({
@@ -13,7 +12,6 @@ export function ProjectCard({
   title,
   description,
   linkLabel,
-  tagsLabel,
 }: ProjectCardProps) {
   return (
     <article className="project-card">
@@ -25,11 +23,6 @@ export function ProjectCard({
       </div>
       <h3>{title}</h3>
       <p>{description}</p>
-      <div className="tag-row" aria-label={tagsLabel}>
-        {project.technologies.map((technology) => (
-          <span key={technology}>{technology}</span>
-        ))}
-      </div>
       <a
         className="project-link"
         href={project.href}

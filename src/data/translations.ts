@@ -16,9 +16,9 @@ export const translations: Record<Locale, Translation> = {
       languageLabel: "Language",
     },
     hero: {
-      eyebrow: "Java Programmer / Software Developer",
+      eyebrow: "",
       name: "Douglas Vinicius Dierings",
-      role: "Java Programmer / Software Developer",
+      role: "Software Engineer",
       intro:
         "Bachelor of Science (Honours) in Computing and IT graduate with a 1.1 grade, and software developer focused on Java, web development and building clean, practical digital solutions.",
       primaryButton: "View projects",

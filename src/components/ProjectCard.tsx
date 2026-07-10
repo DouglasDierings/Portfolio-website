@@ -17,9 +17,6 @@ export function ProjectCard({
     <article className="project-card">
       <div className="project-card-header">
         <span className="card-year">{project.year}</span>
-        <span className="project-number" aria-hidden="true">
-          {project.id.replaceAll("-", " / ")}
-        </span>
       </div>
       <h3>{title}</h3>
       <p>{description}</p>

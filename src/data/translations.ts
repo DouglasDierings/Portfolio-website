@@ -20,7 +20,7 @@ export const translations: Record<Locale, Translation> = {
       name: "Douglas Vinicius Dierings",
       role: "Software Engineer",
       intro:
-        "Bachelor of Science (Honours) in Computing and IT graduate with a 1.1 grade, and software developer focused on Java, web development and building clean, practical digital solutions.",
+        "Passionate about technology from an early age, I recently graduated with First Class Honours in a Bachelor of Science (Honours) in Computing and IT. I enjoy solving problems, building practical solutions, and continuously expanding my technical skills.",
       primaryButton: "View projects",
       secondaryButton: "Get in touch",
       githubLabel: "GitHub",
@@ -34,7 +34,7 @@ export const translations: Record<Locale, Translation> = {
       eyebrow: "About me",
       title: "Focused on Java, web development, and steady growth",
       body:
-        "I am a computing graduate and software developer with a strong interest in Java and modern web development. I enjoy building clear, practical applications and I keep improving through continuous learning, hands-on projects and new technologies.",
+        "I have been captivated by technology since a young age and became the go-to person in my community for resolving computer and electronics issues. With that, I developed a passion for problem-solving and troubleshooting. With 5+ years of experience in the field and as a graduate in IT, I have honed technical and collaborative skills through academic projects and real-world experiences, including my internship at Microsoft. I am now excited to apply my skills in a dynamic, professional environment while continuing to expand my expertise as a Software Engineer.",
       highlights: [
         "Computing graduate",
         "Software developer",
@@ -74,7 +74,7 @@ export const translations: Record<Locale, Translation> = {
       eyebrow: "Get in touch",
       title: "Let's build something useful",
       description:
-        "I am open to software development opportunities, project conversations and professional connections.",
+        "I am currently open to work and welcome software development job opportunities, project collaborations, and professional connections.",
       linksLabel: "Contact links",
       emailLabel: "Email",
       emailDescription: "Start a conversation",
@@ -109,7 +109,7 @@ export const translations: Record<Locale, Translation> = {
       emailLabel: "Ríomhphost",
       socialLinksLabel: "Naisc phróifíle shóisialta",
       actionsLabel: "Gníomhartha punainne",
-      profileLabel: "Ionad sealadach d'íomhá próifíle",
+      profileLabel: "Ionad sealadach d'íomhá phróifíle",
     },
     about: {
       eyebrow: "Fúmsa",

@@ -13,6 +13,8 @@ const languageLabels = Object.fromEntries(
     translation.languageName,
   ]),
 ) as Record<Locale, string>;
+const availableLocales = Object.keys(translations) as Locale[];
+const localeStorageKey = "portfolio-locale";
 
 const profileLinks = {
   github: "https://github.com/DouglasDierings",
@@ -22,12 +24,25 @@ const profileLinks = {
 const assetBasePath =
   process.env.NODE_ENV === "production" ? "/Portfolio-website" : "";
 
+function isLocale(value: string | null): value is Locale {
+  return value !== null && availableLocales.includes(value as Locale);
+}
+
 export default function Home() {
   const [locale, setLocale] = useState<Locale>(defaultLocale);
   const t = translations[locale];
 
   useEffect(() => {
+    const storedLocale = window.localStorage.getItem(localeStorageKey);
+
+    if (isLocale(storedLocale)) {
+      setLocale(storedLocale);
+    }
+  }, []);
+
+  useEffect(() => {
     document.documentElement.lang = locale;
+    window.localStorage.setItem(localeStorageKey, locale);
   }, [locale]);
 
   return (
@@ -83,10 +98,9 @@ export default function Home() {
       </section>
 
       <section className="section" id="about">
-        <div className="section-inner section-grid about-grid">
-          <div className="about-heading">
-            <p className="eyebrow">{t.about.eyebrow}</p>
-            <h2>{t.about.title}</h2>
+        <div className="section-inner">
+          <div className="section-heading about-heading">
+            <h2>{t.about.eyebrow || t.about.title}</h2>
           </div>
           <div className="surface-panel about-panel">
             <p className="about-copy">{t.about.body}</p>
@@ -102,8 +116,7 @@ export default function Home() {
       <section className="section section-muted" id="projects">
         <div className="section-inner">
           <div className="section-heading">
-            <p className="eyebrow">{t.projects.eyebrow}</p>
-            <h2>{t.projects.title}</h2>
+            <h2>{t.projects.eyebrow || t.projects.title}</h2>
           </div>
           <div className="card-grid" aria-label={t.projects.cardsLabel}>
             {projects.map((project) => {
@@ -132,8 +145,7 @@ export default function Home() {
       <section className="section" id="contact">
         <div className="section-inner">
           <div className="contact-heading">
-            <p className="eyebrow">{t.contact.eyebrow}</p>
-            <h2>{t.contact.title}</h2>
+            <h2>{t.contact.eyebrow || t.contact.title}</h2>
             <p>{t.contact.description}</p>
           </div>
           <div className="contact-links" aria-label={t.contact.linksLabel}>

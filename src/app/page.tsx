@@ -21,6 +21,8 @@ const profileLinks = {
   email: "mailto:douglasbindi@hotmail.com",
 };
 
+const basePath = "/Portfolio-website";
+
 export default function Home() {
   const [locale, setLocale] = useState<Locale>(defaultLocale);
   const t = translations[locale];
@@ -71,7 +73,7 @@ export default function Home() {
                   alt={t.hero.name}
                   className="profile-image"
                   height={620}
-                  src="/images/profile_picture.jpg"
+                  src={`${basePath}/images/profile_picture.jpg`}
                   width={620}
                 />
               </div>

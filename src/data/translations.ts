@@ -97,11 +97,11 @@ export const translations: Record<Locale, Translation> = {
       languageLabel: "Teanga",
     },
     hero: {
-      eyebrow: "Ríomhchláraitheoir Java / Forbróir Bogearraí",
+      eyebrow: "",
       name: "Douglas Vinicius Dierings",
-      role: "Ríomhchláraitheoir Java / Forbróir Bogearraí",
+      role: "Innealtóir Bogearraí",
       intro:
-        "Céimí ríomhaireachta agus forbróir bogearraí dírithe ar Java, forbairt gréasáin, agus réitigh dhigiteacha ghlana phraiticiúla.",
+        "Tá dúil agam sa teicneolaíocht ó bhí mé óg. Bhain mé céim Bhaitsiléara Eolaíochta (Onóracha) sa Ríomhaireacht agus TF amach le déanaí, le hOnóracha den Chéad Ghrád. Is maith liom fadhbanna a réiteach, réitigh phraiticiúla a fhorbairt agus mo scileanna teicniúla a leathnú i gcónaí.",
       primaryButton: "Féach tionscadail",
       secondaryButton: "Déan teagmháil",
       githubLabel: "GitHub",
@@ -115,7 +115,7 @@ export const translations: Record<Locale, Translation> = {
       eyebrow: "Fúmsa",
       title: "Dírithe ar Java, forbairt gréasáin, agus fás leanúnach",
       body:
-        "Is céimí ríomhaireachta agus forbróir bogearraí mé le suim láidir i Java agus forbairt gréasáin nua-aimseartha. Is maith liom feidhmchláir shoiléire phraiticiúla a thógáil agus leanann mé orm ag foghlaim trí thionscadail agus teicneolaíochtaí nua.",
+        "Tá suim mhór agam sa teicneolaíocht ó bhí mé óg, agus ba mhinic a tháinig daoine i mo phobal chugam chun cabhair a fháil le fadhbanna ríomhaireachta agus leictreonaice. Dá bharr sin, d'fhorbair mé paisean do réiteach fadhbanna agus d'fhabhtcheartú. Le breis agus cúig bliana de thaithí sa réimse agus céim TF agam, tá mo scileanna teicniúla agus comhoibritheacha forbartha agam trí thionscadail acadúla agus taithí sa saol oibre, lena n-áirítear m'intéirneacht le Microsoft. Táim ar bís anois mo chuid scileanna a chur i bhfeidhm i dtimpeallacht ghairmiúil dhinimiciúil agus leanúint de mo shaineolas mar Innealtóir Bogearraí a leathnú.",
       highlights: [
         "Céimí ríomhaireachta",
         "Forbróir bogearraí",
@@ -155,7 +155,7 @@ export const translations: Record<Locale, Translation> = {
       eyebrow: "Déan teagmháil",
       title: "Tógaimis rud úsáideach",
       description:
-        "Táim oscailte do dheiseanna forbartha bogearraí, comhráite tionscadail agus naisc ghairmiúla.",
+        "Táim ar fáil le haghaidh oibre faoi láthair agus fáiltím roimh dheiseanna fostaíochta i bhforbairt bogearraí, comhoibriú ar thionscadail agus naisc ghairmiúla.",
       linksLabel: "Naisc teagmhála",
       emailLabel: "Ríomhphost",
       emailDescription: "Cuir tús le comhrá",
@@ -178,11 +178,11 @@ export const translations: Record<Locale, Translation> = {
       languageLabel: "Idioma",
     },
     hero: {
-      eyebrow: "Programador Java / Desenvolvedor de Software",
+      eyebrow: "",
       name: "Douglas Vinicius Dierings",
-      role: "Programador Java / Desenvolvedor de Software",
+      role: "Engenheiro de Software",
       intro:
-        "Graduado em computação e desenvolvedor de software focado em Java, desenvolvimento web e soluções digitais limpas e práticas.",
+        "Apaixonado por tecnologia desde cedo, concluí recentemente o bacharelado com honras de primeira classe em Computação e TI. Gosto de resolver problemas, criar soluções práticas e ampliar continuamente minhas habilidades técnicas.",
       primaryButton: "Ver projetos",
       secondaryButton: "Entrar em contato",
       githubLabel: "GitHub",
@@ -196,7 +196,7 @@ export const translations: Record<Locale, Translation> = {
       eyebrow: "Sobre mim",
       title: "Focado em Java, desenvolvimento web e evolução contínua",
       body:
-        "Sou graduado em computação e desenvolvedor de software com forte interesse em Java e desenvolvimento web moderno. Gosto de criar aplicações claras e práticas, evoluindo continuamente por meio de projetos, estudo e novas tecnologias.",
+        "Sou fascinado por tecnologia desde cedo e me tornei a pessoa a quem minha comunidade recorria para resolver problemas com computadores e aparelhos eletrônicos. Com isso, desenvolvi uma paixão por solucionar problemas e identificar falhas. Com mais de cinco anos de experiência na área e formação em TI, aperfeiçoei habilidades técnicas e colaborativas por meio de projetos acadêmicos e experiências profissionais, incluindo meu estágio na Microsoft. Agora, quero aplicar minhas habilidades em um ambiente profissional dinâmico e continuar ampliando meus conhecimentos como Engenheiro de Software.",
       highlights: [
         "Graduado em computação",
         "Desenvolvedor de software",
@@ -222,7 +222,7 @@ export const translations: Record<Locale, Translation> = {
           id: "learn-flow",
           title: "Learn Flow",
           description:
-            "Um app Android para gerenciar treinamentos de funcionários em vários locais de trabalho, com autenticação Firebase, armazenamento no Realtime Database e fluxos móveis para integração e controles mensais.",
+            "Um app Android para gerenciar treinamentos de funcionários em vários locais de trabalho, com autenticação Firebase, armazenamento no Realtime Database e fluxos móveis para integração e verificações mensais de treinamento.",
         },
         {
           id: "find-out-your-tax",
@@ -236,7 +236,7 @@ export const translations: Record<Locale, Translation> = {
       eyebrow: "Entre em contato",
       title: "Vamos construir algo útil",
       description:
-        "Estou disponível para oportunidades em desenvolvimento de software, conversas sobre projetos e conexões profissionais.",
+        "Estou atualmente aberto a propostas de trabalho e oportunidades em desenvolvimento de software, colaborações em projetos e conexões profissionais.",
       linksLabel: "Links de contato",
       emailLabel: "Email",
       emailDescription: "Iniciar uma conversa",
@@ -259,11 +259,11 @@ export const translations: Record<Locale, Translation> = {
       languageLabel: "Idioma",
     },
     hero: {
-      eyebrow: "Programador Java / Desarrollador de Software",
+      eyebrow: "",
       name: "Douglas Vinicius Dierings",
-      role: "Programador Java / Desarrollador de Software",
+      role: "Ingeniero de software",
       intro:
-        "Graduado en informática y desarrollador de software enfocado en Java, desarrollo web y soluciones digitales limpias y prácticas.",
+        "Apasionado por la tecnología desde temprana edad, recientemente me gradué con honores de primera clase en la Licenciatura en Ciencias (con honores) en Computación y TI. Disfruto resolviendo problemas, creando soluciones prácticas y ampliando continuamente mis habilidades técnicas.",
       primaryButton: "Ver proyectos",
       secondaryButton: "Contactarme",
       githubLabel: "GitHub",
@@ -277,7 +277,7 @@ export const translations: Record<Locale, Translation> = {
       eyebrow: "Sobre mí",
       title: "Enfocado en Java, desarrollo web y aprendizaje continuo",
       body:
-        "Soy graduado en informática y desarrollador de software con un fuerte interés en Java y el desarrollo web moderno. Me gusta crear aplicaciones claras y prácticas, y sigo mejorando mediante proyectos, estudio y nuevas tecnologías.",
+        "La tecnología me ha fascinado desde pequeño y me convertí en la persona a la que acudía mi comunidad para resolver problemas informáticos y de dispositivos electrónicos. Así desarrollé una pasión por la resolución de problemas y el diagnóstico de fallos. Con más de cinco años de experiencia en el sector y como graduado en TI, he perfeccionado mis habilidades técnicas y de colaboración mediante proyectos académicos y experiencias profesionales, incluidas mis prácticas en Microsoft. Ahora quiero aplicar mis habilidades en un entorno profesional dinámico mientras continúo ampliando mis conocimientos como Ingeniero de software.",
       highlights: [
         "Graduado en informática",
         "Desarrollador de software",
@@ -303,7 +303,7 @@ export const translations: Record<Locale, Translation> = {
           id: "learn-flow",
           title: "Learn Flow",
           description:
-            "Una app Android para gestionar la formación de empleados en varios sitios de trabajo, con autenticación Firebase, almacenamiento en Realtime Database y flujos móviles para incorporación y controles mensuales.",
+            "Una app Android para gestionar la formación de empleados en varios centros de trabajo, con autenticación de Firebase, almacenamiento en Realtime Database y flujos móviles para la incorporación y las verificaciones mensuales de formación.",
         },
         {
           id: "find-out-your-tax",
@@ -317,7 +317,7 @@ export const translations: Record<Locale, Translation> = {
       eyebrow: "Hablemos",
       title: "Construyamos algo útil",
       description:
-        "Estoy disponible para oportunidades de desarrollo de software, conversaciones sobre proyectos y conexiones profesionales.",
+        "Actualmente estoy abierto a trabajar y acepto oportunidades laborales en desarrollo de software, colaboraciones en proyectos y contactos profesionales.",
       linksLabel: "Enlaces de contacto",
       emailLabel: "Email",
       emailDescription: "Iniciar una conversación",
@@ -340,11 +340,11 @@ export const translations: Record<Locale, Translation> = {
       languageLabel: "Sprache",
     },
     hero: {
-      eyebrow: "Java-Programmierer / Softwareentwickler",
+      eyebrow: "",
       name: "Douglas Vinicius Dierings",
-      role: "Java-Programmierer / Softwareentwickler",
+      role: "Softwareentwickler",
       intro:
-        "Informatikabsolvent und Softwareentwickler mit Fokus auf Java, Webentwicklung und saubere, praktische digitale Lösungen.",
+        "Schon früh entwickelte ich eine Leidenschaft für Technologie. Vor Kurzem habe ich meinen Bachelor of Science (Honours) in Computing und IT mit der Bestnote „First Class Honours“ abgeschlossen. Ich löse gerne Probleme, entwickle praxisnahe Lösungen und erweitere kontinuierlich meine technischen Fähigkeiten.",
       primaryButton: "Projekte ansehen",
       secondaryButton: "Kontakt aufnehmen",
       githubLabel: "GitHub",
@@ -358,7 +358,7 @@ export const translations: Record<Locale, Translation> = {
       eyebrow: "Über mich",
       title: "Fokus auf Java, Webentwicklung und kontinuierliches Lernen",
       body:
-        "Ich bin Informatikabsolvent und Softwareentwickler mit starkem Interesse an Java und moderner Webentwicklung. Ich entwickle gerne klare, praktische Anwendungen und verbessere mich kontinuierlich durch Projekte, Lernen und neue Technologien.",
+        "Technologie fasziniert mich seit meiner Kindheit, und in meinem Umfeld wurde ich zur ersten Anlaufstelle bei Problemen mit Computern und elektronischen Geräten. Dadurch entwickelte ich eine Leidenschaft für Problemlösung und Fehlerdiagnose. Mit mehr als fünf Jahren Erfahrung in diesem Bereich und einem IT-Abschluss habe ich meine technischen Fähigkeiten und meine Teamkompetenz durch akademische Projekte und praktische Erfahrungen weiterentwickelt, darunter mein Praktikum bei Microsoft. Nun möchte ich meine Fähigkeiten in einem dynamischen, professionellen Umfeld einsetzen und gleichzeitig mein Fachwissen als Softwareentwickler weiter ausbauen.",
       highlights: [
         "Informatikabsolvent",
         "Softwareentwickler",
@@ -390,7 +390,7 @@ export const translations: Record<Locale, Translation> = {
           id: "find-out-your-tax",
           title: "Irischer Steuerrechner",
           description:
-            "Ein Java-Prototyp zur Berechnung irischer Steuern, der PAYE, USC und PRSI schätzt, mit Login, Registrierung, Profilabläufen und in MySQL gespeicherten Steuerdaten.",
+            "Ein Java-Steuerrechner-Prototyp zur Schätzung irischer PAYE-, USC- und PRSI-Verbindlichkeiten mit Anmeldung, Registrierung, Profilabläufen und in MySQL gespeicherten Steuerdatensätzen der Nutzer.",
         },
       ],
     },
@@ -398,7 +398,7 @@ export const translations: Record<Locale, Translation> = {
       eyebrow: "Kontakt aufnehmen",
       title: "Lassen Sie uns etwas Nützliches entwickeln",
       description:
-        "Ich bin offen für Möglichkeiten in der Softwareentwicklung, Projektgespräche und berufliche Kontakte.",
+        "Ich bin derzeit offen für eine neue Stelle und freue mich über Jobangebote in der Softwareentwicklung, Projektkooperationen und berufliche Kontakte.",
       linksLabel: "Kontaktlinks",
       emailLabel: "E-Mail",
       emailDescription: "Ein Gespräch beginnen",

@@ -97,7 +97,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section" id="about">
+      <section className="section section-about" id="about">
         <div className="section-inner">
           <div className="section-heading about-heading">
             <h2>{t.about.eyebrow || t.about.title}</h2>

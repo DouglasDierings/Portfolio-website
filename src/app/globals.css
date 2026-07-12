@@ -202,9 +202,14 @@ select:focus-visible {
 
 .section-hero {
   display: grid;
-  min-height: calc(100vh - 76px);
+  min-height: auto;
   align-items: center;
   padding-top: clamp(72px, 9vw, 112px);
+  padding-bottom: clamp(40px, 5vw, 64px);
+}
+
+.section-about {
+  padding-top: clamp(40px, 5vw, 64px);
 }
 
 .section-hero::after,

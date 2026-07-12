@@ -52,9 +52,9 @@ export const translations: Record<Locale, Translation> = {
       items: [
         {
           id: "capstone-project",
-          title: "Traffic Volume Forecasting Capstone",
+          title: "Machine Learning Traffic Volume Forecasting Model",
           description:
-            "A final-year forecasting study comparing SARIMA and XGBoost on 15-minute SCATS traffic data, with feature engineering, model evaluation and a Tkinter demo for future traffic predictions.",
+            "A machine learning model for traffic volume forecasting that compares SARIMA and XGBoost on 15-minute SCATS traffic data, with feature engineering, model evaluation and a Tkinter demo for future traffic predictions.",
         },
         {
           id: "learn-flow",
@@ -133,9 +133,9 @@ export const translations: Record<Locale, Translation> = {
       items: [
         {
           id: "capstone-project",
-          title: "Tionscadal Capstone um Thuar Tráchta",
+          title: "Samhail Foghlama Meaisín um Thuar Méid Tráchta",
           description:
-            "Staidéar tuartha bliana deiridh a chuireann SARIMA agus XGBoost i gcomparáid ar shonraí tráchta SCATS 15 nóiméad, le hinnealtóireacht gnéithe, meastóireacht samhlacha agus taispeántas Tkinter do thuar tráchta amach anseo.",
+            "Samhail foghlama meaisín do thuar méid tráchta a chuireann SARIMA agus XGBoost i gcomparáid ar shonraí tráchta SCATS 15 nóiméad, le hinnealtóireacht gnéithe, meastóireacht samhlacha agus taispeántas Tkinter do thuar tráchta amach anseo.",
         },
         {
           id: "learn-flow",
@@ -214,9 +214,9 @@ export const translations: Record<Locale, Translation> = {
       items: [
         {
           id: "capstone-project",
-          title: "Capstone de Previsão de Volume de Tráfego",
+          title: "Modelo de Machine Learning para Previsão de Volume de Tráfego",
           description:
-            "Um estudo final de previsão que compara SARIMA e XGBoost com dados de tráfego SCATS em intervalos de 15 minutos, incluindo engenharia de atributos, avaliação de modelos e uma demo em Tkinter para previsões futuras.",
+            "Um modelo de machine learning para previsão de volume de tráfego que compara SARIMA e XGBoost com dados de tráfego SCATS em intervalos de 15 minutos, incluindo engenharia de atributos, avaliação de modelos e uma demo em Tkinter para previsões futuras.",
         },
         {
           id: "learn-flow",
@@ -295,9 +295,9 @@ export const translations: Record<Locale, Translation> = {
       items: [
         {
           id: "capstone-project",
-          title: "Capstone de Predicción de Volumen de Tráfico",
+          title: "Modelo de Machine Learning para Predicción de Volumen de Tráfico",
           description:
-            "Un estudio final de predicción que compara SARIMA y XGBoost con datos de tráfico SCATS en intervalos de 15 minutos, incluyendo ingeniería de características, evaluación de modelos y una demo en Tkinter para predicciones futuras.",
+            "Un modelo de machine learning para predicción de volumen de tráfico que compara SARIMA y XGBoost con datos de tráfico SCATS en intervalos de 15 minutos, incluyendo ingeniería de características, evaluación de modelos y una demo en Tkinter para predicciones futuras.",
         },
         {
           id: "learn-flow",
@@ -376,9 +376,9 @@ export const translations: Record<Locale, Translation> = {
       items: [
         {
           id: "capstone-project",
-          title: "Capstone zur Verkehrsvolumenprognose",
+          title: "Machine-Learning-Modell zur Verkehrsvolumenprognose",
           description:
-            "Eine Abschlussstudie zur Prognose, die SARIMA und XGBoost mit 15-minütigen SCATS-Verkehrsdaten vergleicht, einschließlich Feature Engineering, Modellbewertung und einer Tkinter-Demo für zukünftige Verkehrsprognosen.",
+            "Ein Machine-Learning-Modell zur Verkehrsvolumenprognose, das SARIMA und XGBoost mit 15-minütigen SCATS-Verkehrsdaten vergleicht, einschließlich Feature Engineering, Modellbewertung und einer Tkinter-Demo für zukünftige Verkehrsprognosen.",
         },
         {
           id: "learn-flow",
